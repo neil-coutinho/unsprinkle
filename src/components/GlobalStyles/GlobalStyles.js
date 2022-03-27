@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import "@fontsource/inter"
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -47,6 +48,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url(/fonts/Inter-variable.woff2) format('woff2');
+ }
+
 
 * {
   box-sizing: border-box;
